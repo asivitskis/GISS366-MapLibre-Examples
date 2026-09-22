@@ -5,7 +5,7 @@ Site for hosting open-source interactive web maps built with Python, Leafmap, an
 
 | Map | Description |
 |-----|-------------|
-| **[CBC Demo Map](https://asivitskis.github.io/OpenMaps/CBC_demo_map.html)** | Demo MapLibre web map showcasing interactive terrain and vector layers |
+| **[Part 2 Basic Map](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part2_BasicMap.html)** | Demo MapLibre web map showcasing interactive terrain and vector layers |
 | **[Boston Buildings Map](https://asivitskis.github.io/OpenMaps/boston-buildings.html)** | 3D building visualization for Boston |
 | **[Tetons Map](https://asivitskis.github.io/OpenMaps/tetons.html)** | Terrain-focused web map of the Teton range |
 | **[NFPA Terrain Map](https://asivitskis.github.io/OpenMaps/nfpa-terrain-map.html)** | Terrain and elevation-focused map for hiking trails |

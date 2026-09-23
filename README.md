@@ -1,20 +1,18 @@
-# OpenMaps
-Site for hosting open-source interactive web maps built with Python, Leafmap, and MapLibre GL JS.
+# MapLibre Examples
+These example webmaps were built MapLibre GL JS as companion demonstrations for the GISS 366 Course - Web Mapping and Web GIS, Week 6 lecture. View the open-source notebook to construct these maps [here](https://asivitskis.github.io/giss-366/book/foundations/06_javascript_maplibre.html). 
 
 ## Web Map Gallery
 
 | Map | Description |
 |-----|-------------|
-| **[Part 2 Basic Map](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part2_BasicMap.html)** | Demo MapLibre web map showcasing interactive terrain and vector layers |
-| **[Boston Buildings Map](https://asivitskis.github.io/OpenMaps/boston-buildings.html)** | 3D building visualization for Boston |
-| **[Tetons Map](https://asivitskis.github.io/OpenMaps/tetons.html)** | Terrain-focused web map of the Teton range |
-| **[NFPA Terrain Map](https://asivitskis.github.io/OpenMaps/nfpa-terrain-map.html)** | Terrain and elevation-focused map for hiking trails |
-| **[MA Landscape Viewer](https://asivitskis.github.io/OpenMaps/ma-landscape-viewer.html)** | Interactive aerial imagery and lidar comparison for forestry and landscape planning |
-| **[MA Coastline Viewer](https://asivitskis.github.io/OpenMaps/ma-coastline-viewer.html)** | Interactive aerial imagery and lidar comparison for coastline restoration analysis |
-| **[RI Landscape Viewer](https://asivitskis.github.io/OpenMaps/ri-landscape-viewer.html)** | Interactive aerial imagery and lidar comparison for forestry and landscape planning |
-| **[VT Landscape Viewer](https://asivitskis.github.io/OpenMaps/vt-landscape-viewer.html)** | Interactive aerial imagery and lidar comparison for forestry and landscape planning |
-| **[WY Land Management Viewer](https://asivitskis.github.io/OpenMaps/wy-sma-viewer-simple.html)** | Hosted PMTiles from BLM to visualize land surface management agency |
-| **[WY Land Management Viewer 3D](https://asivitskis.github.io/OpenMaps/wy-sma-viewer-3d.html)** | Interactive aerial imagery and lidar comparison for coastline restoration analysis |
+| **[Part 2 Basic Map](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part2_BasicMap.html)** | Basic MapLibre Map with CDN |
+| **[Part 3 Map Controls](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part3_MapControls.html)** | Add different controls to MapLibre |
+| **[Part 4 Adding Geometry](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part4_AddingGeometry.html)** | Adding markers and other geometric features |
+| **[Part 5 Clustering Points](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part5_Culsters.html)** | Simple demonstration to create dynamic point clusters |
+| **[Part 6: Popups](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part6_PopUps.html)** | Add and syle popup options and functions |
+| **[Part 7 Raster layers](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part7_Raster.html)** | Add different raster and wms layers to the map from external sources |
+| **[Part 8 3D Extrusions](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part8_3D_Extrusions.html)** | How to create dynamic values-based extrusions |
+| **[Part 9 3D Terrain](https://asivitskis.github.io/GISS366-MapLibre-Examples/Part9_3D_Terrain.html)** | Setting camera & interaction control; visualizing 3D Terrain |
 
 
 ---

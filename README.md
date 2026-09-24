@@ -19,4 +19,4 @@ These example webmaps were built MapLibre GL JS as companion demonstrations for 
 
 ---
 
-All maps are hosted via **GitHub Pages** and open directly in the browser.
+All maps are hosted via **GitHub Pages** and open directly in the browser. All files within data folder are sourced from publically available [New Mexico Resource Geographic Information System](https://rgis.unm.edu/), accessed 09/24/2026.

@@ -18,20 +18,29 @@
         const map = new maplibregl.Map({
             container: 'map',
             style: 'https://tiles.openfreemap.org/styles/positron',
-            center: [-100, 40],   // [lng, lat] -- note the order, opposite of Leaflet's [lat, lng]!
-            zoom: 3,
+            center: [-105.7918, 34.8365],
+            zoom: 6,
             pitch: 0,
             bearing: 0
         });
         window.map = map;   // exposes map to the browser console for debugging
 
-        map.on('load', function () {
-            map.addControl(new maplibregl.NavigationControl(), 'top-left')
-        });
+        map.on('load', () => {
+            map.addSource('cities', {
+                type: 'geojson',
+                data: 'data/nm_populated_places.geojson'
+            });
 
-        const marker = new maplibregl.Marker()
-            .setLngLat([-108.2833, 32.7764])
-            .addTo(map);
+            map.addLayer({
+                id: 'cities-points',
+                type: 'circle',
+                source: 'cities',
+                paint: {
+                    'circle-radius': 4,
+                    'circle-color': '#007cbf'
+                }
+            });
+        });
     </script>
 </body>
 </html>

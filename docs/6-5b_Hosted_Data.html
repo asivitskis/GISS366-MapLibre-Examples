@@ -18,14 +18,30 @@
         const map = new maplibregl.Map({
             container: 'map',
             style: 'https://tiles.openfreemap.org/styles/positron',
-            center: [-100, 40],   // [lng, lat] -- note the order, opposite of Leaflet's [lat, lng]!
+            center: [-100, 40],
             zoom: 3,
             pitch: 0,
             bearing: 0
         });
         window.map = map;   // exposes map to the browser console for debugging
 
-        map.flyTo({ center: [-108.2803, 32.7701], zoom: 12, essential: true });   // Silver City, NM
+        /// Load simplified point layer of global populated locations from Natural Earth dataset.
+        map.on('load', () => {
+            map.addSource('cities', {
+                type: 'geojson',
+                data: 'https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_populated_places_simple.geojson'
+            });
+
+            map.addLayer({
+                id: 'cities-points',
+                type: 'circle',
+                source: 'cities',
+                paint: {
+                    'circle-radius': 4,
+                    'circle-color': '#007cbf'
+                }
+            });
+        });
     </script>
 </body>
 </html>
